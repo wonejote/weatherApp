@@ -1,0 +1,42 @@
+
+
+body{
+    background-color: lightslategray;
+}
+
+.contenedor {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* título arriba, info abajo */
+    align-items: center;
+}
+
+.fondo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    z-index: 0;
+}
+
+.titulo, .info {
+    position: relative;
+    z-index: 1; 
+    background-color: rgba(30, 30, 100, 0.7); 
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 1.5rem;
+}
+.titulo{
+    margin-top: 20px;
+}
+.info{
+    margin-bottom: 5%;
+    height: 30%;
+}
