@@ -36,7 +36,19 @@ body{
 .titulo{
     margin-top: 20px;
 }
-.info{
+.info {
     margin-bottom: 5%;
-    height: 30%;
+    height: auto; 
+    width: 28%; 
+    word-wrap: break-word; 
+
+    box-sizing: border-box;
+}
+.ciudad, .temp, .estado {
+    margin: 5px 0; 
+    font-size: 1.25rem;
+}
+
+.ciudad{
+    font-size: 1.2rem;
 }
